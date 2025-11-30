@@ -1,0 +1,473 @@
+[
+  {
+    "id": "1",
+    "name": "TechHive Solutions",
+    "logo": "https://i.ibb.co/SrFJt8P/tech-logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://techhive.com",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-101",
+        "title": "Frontend Developer",
+        "bannerImage": "https://i.ibb.co/RpZcKjS/frontend-banner.jpg",
+        "location": "Remote",
+        "salary": "$800 - $1200",
+        "jobType": "Full-time",
+        "description": "Build modern and scalable user interfaces with React.",
+        "requirements": [
+          "React.js experience",
+          "HTML, CSS, JavaScript",
+          "REST API knowledge",
+          "Responsive design skills",
+          "Teamwork skills"
+        ]
+      },
+      {
+        "id": "job-102",
+        "title": "Backend Developer",
+        "bannerImage": "https://i.ibb.co/3zT3F7Y/backend-banner.jpg",
+        "location": "Dhaka Office",
+        "salary": "$1000 - $1500",
+        "jobType": "Full-time",
+        "description": "Develop backend systems and scalable APIs.",
+        "requirements": [
+          "Node.js & Express",
+          "MongoDB or MySQL",
+          "Authentication methods",
+          "Version control (Git)",
+          "Problem-solving skills"
+        ]
+      },
+      {
+        "id": "job-103",
+        "title": "Full Stack Engineer",
+        "bannerImage": "https://i.ibb.co/XZC2mFm/fullstack.jpg",
+        "location": "Hybrid",
+        "salary": "$1200 - $1800",
+        "jobType": "Full-time",
+        "description": "Work on the entire stack with React and Node.js.",
+        "requirements": [
+          "Full-stack experience",
+          "API development",
+          "React + Node.js expertise",
+          "Database management",
+          "Debugging skills"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "2",
+    "name": "Brain Station 23",
+    "logo": "https://i.ibb.co/cvq9tyn/finance-logo.png",
+    "location": "Chattogram, Bangladesh",
+    "website": "https://brainstation-23.com/",
+    "industry": "FinTech",
+    "jobs": [
+      {
+        "id": "job-201",
+        "title": "Data Analyst",
+        "bannerImage": "https://i.ibb.co/TLgKMt6/data-analyst.jpg",
+        "location": "Remote",
+        "salary": "$700 - $1100",
+        "jobType": "Part-time",
+        "description": "Analyze financial data and make reports.",
+        "requirements": [
+          "Spreadsheet advanced skills",
+          "Python or R knowledge",
+          "Dashboard visualization",
+          "Statistical knowledge",
+          "Critical thinking"
+        ]
+      },
+      {
+        "id": "job-202",
+        "title": "Financial Advisor",
+        "bannerImage": "https://i.ibb.co/FW0W7b9/finance-banner.jpg",
+        "location": "Chattogram",
+        "salary": "$900 - $1300",
+        "jobType": "Full-time",
+        "description": "Guide clients with financial planning and investment strategy.",
+        "requirements": [
+          "Finance knowledge",
+          "Good communication skills",
+          "Report writing",
+          "Client management",
+          "Market understanding"
+        ]
+      },
+      {
+        "id": "job-203",
+        "title": "Cybersecurity Analyst",
+        "bannerImage": "https://i.ibb.co/98JL3jv/cyber.jpg",
+        "location": "Remote",
+        "salary": "$1000 - $1500",
+        "jobType": "Full-time",
+        "description": "Ensure financial data security for FinTech systems.",
+        "requirements": [
+          "Cybersecurity basics",
+          "Network security",
+          "Monitoring tools",
+          "Strong problem-solving",
+          "Risk assessment"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "3",
+    "name": "TigerIT Bangladesh",
+    "logo": "https://i.ibb.co/jzvgMh0/design-logo.png",
+    "location": "Sylhet, Bangladesh",
+    "website": "https://www.tigerit.com/",
+    "industry": "Design & Marketing",
+    "jobs": [
+      {
+        "id": "job-301",
+        "title": "UI/UX Designer",
+        "bannerImage": "https://i.ibb.co/hgR9Kcb/ui-ux.jpg",
+        "location": "Sylhet Office",
+        "salary": "$600 - $900",
+        "jobType": "Full-time",
+        "description": "Design user-friendly interfaces and improve UX.",
+        "requirements": [
+          "Strong Figma skills",
+          "Wireframing",
+          "Prototyping",
+          "User research",
+          "Creativity"
+        ]
+      },
+      {
+        "id": "job-302",
+        "title": "Graphic Designer",
+        "bannerImage": "https://i.ibb.co/p3s57gL/graphic.jpg",
+        "location": "Hybrid",
+        "salary": "$500 - $750",
+        "jobType": "Full-time",
+        "description": "Create digital and print designs for brands.",
+        "requirements": [
+          "Illustrator & Photoshop",
+          "Branding",
+          "Logo design",
+          "Layout design",
+          "Creativity"
+        ]
+      },
+      {
+        "id": "job-303",
+        "title": "Social Media Manager",
+        "bannerImage": "https://i.ibb.co/ZN9G0RH/social-media.jpg",
+        "location": "Remote",
+        "salary": "$450 - $650",
+        "jobType": "Part-time",
+        "description": "Manage social media campaigns and strategies.",
+        "requirements": [
+          "Content writing",
+          "Post scheduling",
+          "Creativity",
+          "Audience engagement",
+          "Analytics"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "4",
+    "name": "ENOSIS",
+    "logo": "https://i.ibb.co/6tgPWzm/cloud-logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.enosisbd.com/",
+    "industry": "Cloud & Networking",
+    "jobs": [
+      {
+        "id": "job-401",
+        "title": "Cloud Engineer",
+        "bannerImage": "https://i.ibb.co/vvD0wYH/cloud-engineer.jpg",
+        "location": "Dhaka Office",
+        "salary": "$1200 - $1800",
+        "jobType": "Full-time",
+        "description": "Manage cloud infrastructure and deployments.",
+        "requirements": [
+          "AWS or GCP",
+          "Docker & Kubernetes",
+          "Server management",
+          "Linux experience",
+          "Networking basics"
+        ]
+      },
+      {
+        "id": "job-402",
+        "title": "DevOps Engineer",
+        "bannerImage": "https://i.ibb.co/YDz7L4M/devops.jpg",
+        "location": "Hybrid",
+        "salary": "$1300 - $2000",
+        "jobType": "Full-time",
+        "description": "Automate CI/CD pipelines and system deployment.",
+        "requirements": [
+          "Jenkins / GitHub Actions",
+          "Docker",
+          "Terraform",
+          "Monitoring tools",
+          "Team collaboration"
+        ]
+      },
+      {
+        "id": "job-403",
+        "title": "System Admin",
+        "bannerImage": "https://i.ibb.co/5WZ2Hzr/system-admin.jpg",
+        "location": "Dhaka Office",
+        "salary": "$800 - $1200",
+        "jobType": "Full-time",
+        "description": "Maintain servers, networks and internal systems.",
+        "requirements": [
+          "Linux knowledge",
+          "Firewall configuration",
+          "Backup management",
+          "Network monitoring",
+          "Troubleshooting"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "5",
+    "name": "Nascenia",
+    "logo": "https://i.ibb.co/XSCXnnT/edu-logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://nascenia.com/",
+    "industry": "EdTech",
+    "jobs": [
+      {
+        "id": "job-501",
+        "title": "Course Instructor (Programming)",
+        "bannerImage": "https://i.ibb.co/Vw9t6H3/instructor.jpg",
+        "location": "Remote",
+        "salary": "$700 - $900",
+        "jobType": "Part-time",
+        "description": "Teach programming courses to online learners.",
+        "requirements": [
+          "Strong programming skills",
+          "Teaching experience",
+          "Course creation",
+          "Good communication",
+          "Motivation"
+        ]
+      },
+      {
+        "id": "job-502",
+        "title": "Video Editor",
+        "bannerImage": "https://i.ibb.co/ZKL58tH/editor.jpg",
+        "location": "Dhaka Office",
+        "salary": "$500 - $700",
+        "jobType": "Full-time",
+        "description": "Edit course videos and improve production quality.",
+        "requirements": [
+          "Premiere Pro",
+          "After Effects",
+          "Creativity",
+          "Basic animation",
+          "Time management"
+        ]
+      },
+      {
+        "id": "job-503",
+        "title": "Content Writer",
+        "bannerImage": "https://i.ibb.co/WBRgQ4y/content.jpg",
+        "location": "Remote",
+        "salary": "$400 - $600",
+        "jobType": "Part-time",
+        "description": "Create content for educational materials.",
+        "requirements": [
+          "Good grammar",
+          "Writing skills",
+          "SEO knowledge",
+          "Research ability",
+          "Creativity"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "6",
+    "name": "MediCore Health",
+    "logo": "https://i.ibb.co/G7rz7Tf/health-logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://medicore.com",
+    "industry": "Healthcare Tech",
+    "jobs": [
+      {
+        "id": "job-601",
+        "title": "Medical Data Specialist",
+        "bannerImage": "https://i.ibb.co/k2vgLGn/medical-data.jpg",
+        "location": "Hybrid",
+        "salary": "$900 - $1300",
+        "jobType": "Full-time",
+        "description": "Handle digital medical data and records.",
+        "requirements": [
+          "Excel skills",
+          "Database knowledge",
+          "Medical data training",
+          "Attention to detail",
+          "Security awareness"
+        ]
+      },
+      {
+        "id": "job-602",
+        "title": "Healthcare Software Tester",
+        "bannerImage": "https://i.ibb.co/h9W4r3d/qa.jpg",
+        "location": "Dhaka Office",
+        "salary": "$700 - $1000",
+        "jobType": "Full-time",
+        "description": "Test healthcare software and ensure accuracy.",
+        "requirements": [
+          "Manual testing",
+          "Bug reporting",
+          "Basic automation",
+          "Analytical thinking",
+          "QA tools knowledge"
+        ]
+      },
+      {
+        "id": "job-603",
+        "title": "Support Engineer",
+        "bannerImage": "https://i.ibb.co/98YLXcM/support.jpg",
+        "location": "Remote",
+        "salary": "$500 - $800",
+        "jobType": "Full-time",
+        "description": "Support hospitals using our digital systems.",
+        "requirements": [
+          "Customer support",
+          "Troubleshooting",
+          "Communication skills",
+          "Basic networking",
+          "Time management"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "7",
+    "name": "Vivasoft",
+    "logo": "https://i.ibb.co/BzLmP4p/shop-logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://vivasoftltd.com/#",
+    "industry": "E-Commerce",
+    "jobs": [
+      {
+        "id": "job-701",
+        "title": "Frontend Developer (E-Commerce)",
+        "bannerImage": "https://i.ibb.co/RpZcKjS/frontend-banner.jpg",
+        "location": "Remote",
+        "salary": "$800 - $1200",
+        "jobType": "Full-time",
+        "description": "Develop fast and responsive e-commerce UI.",
+        "requirements": [
+          "React.js",
+          "Tailwind CSS",
+          "REST APIs",
+          "Performance optimization",
+          "Clean code structure"
+        ]
+      },
+      {
+        "id": "job-702",
+        "title": "Product Manager",
+        "bannerImage": "https://i.ibb.co/HGvkgXQ/product-manager.jpg",
+        "location": "Dhaka Office",
+        "salary": "$1000 - $1600",
+        "jobType": "Full-time",
+        "description": "Manage product lifecycle and feature planning.",
+        "requirements": [
+          "Planning skills",
+          "Communication",
+          "Data-driven decision-making",
+          "Leadership",
+          "E-commerce knowledge"
+        ]
+      },
+      {
+        "id": "job-703",
+        "title": "Logistics Coordinator",
+        "bannerImage": "https://i.ibb.co/3CnLg5f/logistic.jpg",
+        "location": "Dhaka Warehouse",
+        "salary": "$500 - $750",
+        "jobType": "Full-time",
+        "description": "Manage delivery flow and warehouse data.",
+        "requirements": [
+          "Excel knowledge",
+          "Inventory management",
+          "Team coordination",
+          "Attention to detail",
+          "Communication"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "8",
+    "name": "Southtech ",
+    "logo": "https://i.ibb.co/F34tGJ0/bytewave.png",
+    "location": "Rajshahi, Bangladesh",
+    "website": "https://www.southtechgroup.com/",
+    "industry": "AI & Automation",
+    "jobs": [
+      {
+        "id": "job-801",
+        "title": "AI Research Assistant",
+        "bannerImage": "https://i.ibb.co/V2P9gHb/ai.jpg",
+        "location": "Remote",
+        "salary": "$900 - $1400",
+        "jobType": "Full-time",
+        "description": "Assist in training and optimizing machine learning models.",
+        "requirements": [
+          "Python",
+          "TensorFlow or PyTorch",
+          "Math skills",
+          "Research experience",
+          "Documentation"
+        ]
+      },
+      {
+        "id": "job-802",
+        "title": "Automation Engineer",
+        "bannerImage": "https://i.ibb.co/m5WscJ4/automation.jpg",
+        "location": "Rajshahi Office",
+        "salary": "$1000 - $1500",
+        "jobType": "Full-time",
+        "description": "Build automation workflows for industry solutions.",
+        "requirements": [
+          "Robotics basics",
+          "PLC or microcontroller",
+          "Scripting knowledge",
+          "Electronics basics",
+          "Problem-solving"
+        ]
+      },
+      {
+        "id": "job-803",
+        "title": "AI Tester",
+        "bannerImage": "https://i.ibb.co/2cK4nWX/ai-test.jpg",
+        "location": "Hybrid",
+        "salary": "$700 - $1100",
+        "jobType": "Full-time",
+        "description": "Test AI models and ensure accuracy of outputs.",
+        "requirements": [
+          "Basic ML knowledge",
+          "Communication",
+          "Testing mindset",
+          "Dataset handling",
+          "Reporting"
+        ]
+      }
+    ]
+  }
+]
