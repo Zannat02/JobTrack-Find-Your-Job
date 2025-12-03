@@ -15,7 +15,7 @@ const ApplyModal = ({ job, company, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // For demo: just show success message. In real app send form data to backend.
+   
     console.log("Application:", form);
     setSubmitted(true);
     setTimeout(() => {

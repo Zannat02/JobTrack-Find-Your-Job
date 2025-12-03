@@ -5,7 +5,7 @@ import { IoIosSearch } from 'react-icons/io';
 const Bannar = () => {
     return (
 
-        <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10 py-16 px-5">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-center gap-10 p-10 px-5 ">
 
           
             <div className="md:w-1/2 w-full text-center md:text-left pt-10">
@@ -42,7 +42,7 @@ const Bannar = () => {
             </div>
 
          
-            <div className="md:w-1/2 w-full flex justify-center">
+            <div className="    md:w-1/2 w-full flex justify-center">
                 <img className="w-full md:w-[700px]" src={BannarImage} alt="Banner" />
             </div>
 

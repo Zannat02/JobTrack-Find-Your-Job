@@ -6,6 +6,11 @@ const CompanyDetails = () => {
     const { companyId } = useParams();
     const [company, setCompany] = useState(null);
 
+
+     useEffect(() => {
+            document.title = "CompanyDetails | JobTrack";
+        }, []);
+
     useEffect(() => {
         fetch("/companies_details.json")
             .then(res => res.json())
@@ -21,9 +26,9 @@ const CompanyDetails = () => {
     }
 
     return (
-        <div className="w-11/12 mx-auto py-8">
-            {/* Header */}
-            <div className="bg-white rounded-xl shadow-md overflow-hidden">
+        <div className="py-8 ">
+           
+            <div className=" rounded-xl shadow-md overflow-hidden">
                 <div className="p-6 flex gap-6">
                     <img src={company.logo} alt={company.name} className="w-24 h-24 object-contain" />
                     <div>
@@ -38,7 +43,7 @@ const CompanyDetails = () => {
 
            
      
-            {/* Jobs list */}
+           
             <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
                 {company.jobs.map((job, index) => (
                     <motion.div

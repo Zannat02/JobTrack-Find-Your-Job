@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "TechHive Solutions",
-    "logo": "https://i.ibb.co/SrFJt8P/tech-logo.png",
+    "logo": "https://i.ibb.co.com/7tYKLz03/images.png",
     "location": "Dhaka, Bangladesh",
     "website": "https://techhive.com",
     "industry": "Software Development",
@@ -10,7 +10,7 @@
       {
         "id": "job-101",
         "title": "Frontend Developer",
-        "bannerImage": "https://i.ibb.co/RpZcKjS/frontend-banner.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Remote",
         "salary": "$800 - $1200",
         "jobType": "Full-time",
@@ -26,7 +26,7 @@
       {
         "id": "job-102",
         "title": "Backend Developer",
-        "bannerImage": "https://i.ibb.co/3zT3F7Y/backend-banner.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Dhaka Office",
         "salary": "$1000 - $1500",
         "jobType": "Full-time",
@@ -42,7 +42,7 @@
       {
         "id": "job-103",
         "title": "Full Stack Engineer",
-        "bannerImage": "https://i.ibb.co/XZC2mFm/fullstack.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Hybrid",
         "salary": "$1200 - $1800",
         "jobType": "Full-time",
@@ -61,7 +61,7 @@
   {
     "id": "2",
     "name": "Brain Station 23",
-    "logo": "https://i.ibb.co/cvq9tyn/finance-logo.png",
+    "logo": "https://i.ibb.co.com/nszQvJSY/Brain-Station-23-Ltd.jpg",
     "location": "Chattogram, Bangladesh",
     "website": "https://brainstation-23.com/",
     "industry": "FinTech",
@@ -69,7 +69,7 @@
       {
         "id": "job-201",
         "title": "Data Analyst",
-        "bannerImage": "https://i.ibb.co/TLgKMt6/data-analyst.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Remote",
         "salary": "$700 - $1100",
         "jobType": "Part-time",
@@ -85,7 +85,7 @@
       {
         "id": "job-202",
         "title": "Financial Advisor",
-        "bannerImage": "https://i.ibb.co/FW0W7b9/finance-banner.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Chattogram",
         "salary": "$900 - $1300",
         "jobType": "Full-time",
@@ -101,7 +101,7 @@
       {
         "id": "job-203",
         "title": "Cybersecurity Analyst",
-        "bannerImage": "https://i.ibb.co/98JL3jv/cyber.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Remote",
         "salary": "$1000 - $1500",
         "jobType": "Full-time",
@@ -120,7 +120,7 @@
   {
     "id": "3",
     "name": "TigerIT Bangladesh",
-    "logo": "https://i.ibb.co/jzvgMh0/design-logo.png",
+    "logo": "https://i.ibb.co.com/ksBDngCD/TigerIt.png",
     "location": "Sylhet, Bangladesh",
     "website": "https://www.tigerit.com/",
     "industry": "Design & Marketing",
@@ -128,7 +128,7 @@
       {
         "id": "job-301",
         "title": "UI/UX Designer",
-        "bannerImage": "https://i.ibb.co/hgR9Kcb/ui-ux.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Sylhet Office",
         "salary": "$600 - $900",
         "jobType": "Full-time",
@@ -144,7 +144,7 @@
       {
         "id": "job-302",
         "title": "Graphic Designer",
-        "bannerImage": "https://i.ibb.co/p3s57gL/graphic.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Hybrid",
         "salary": "$500 - $750",
         "jobType": "Full-time",
@@ -160,7 +160,7 @@
       {
         "id": "job-303",
         "title": "Social Media Manager",
-        "bannerImage": "https://i.ibb.co/ZN9G0RH/social-media.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Remote",
         "salary": "$450 - $650",
         "jobType": "Part-time",
@@ -179,7 +179,7 @@
   {
     "id": "4",
     "name": "ENOSIS",
-    "logo": "https://i.ibb.co/6tgPWzm/cloud-logo.png",
+    "logo": "https://i.ibb.co.com/Pztj7xM6/enosis.jpg",
     "location": "Dhaka, Bangladesh",
     "website": "https://www.enosisbd.com/",
     "industry": "Cloud & Networking",
@@ -187,7 +187,7 @@
       {
         "id": "job-401",
         "title": "Cloud Engineer",
-        "bannerImage": "https://i.ibb.co/vvD0wYH/cloud-engineer.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Dhaka Office",
         "salary": "$1200 - $1800",
         "jobType": "Full-time",
@@ -203,7 +203,7 @@
       {
         "id": "job-402",
         "title": "DevOps Engineer",
-        "bannerImage": "https://i.ibb.co/YDz7L4M/devops.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Hybrid",
         "salary": "$1300 - $2000",
         "jobType": "Full-time",
@@ -219,7 +219,7 @@
       {
         "id": "job-403",
         "title": "System Admin",
-        "bannerImage": "https://i.ibb.co/5WZ2Hzr/system-admin.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Dhaka Office",
         "salary": "$800 - $1200",
         "jobType": "Full-time",
@@ -238,7 +238,7 @@
   {
     "id": "5",
     "name": "Nascenia",
-    "logo": "https://i.ibb.co/XSCXnnT/edu-logo.png",
+    "logo": "https://i.ibb.co.com/gZ0bQPsv/nascency-logo.jpg",
     "location": "Dhaka, Bangladesh",
     "website": "https://nascenia.com/",
     "industry": "EdTech",
@@ -246,7 +246,7 @@
       {
         "id": "job-501",
         "title": "Course Instructor (Programming)",
-        "bannerImage": "https://i.ibb.co/Vw9t6H3/instructor.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Remote",
         "salary": "$700 - $900",
         "jobType": "Part-time",
@@ -262,7 +262,7 @@
       {
         "id": "job-502",
         "title": "Video Editor",
-        "bannerImage": "https://i.ibb.co/ZKL58tH/editor.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Dhaka Office",
         "salary": "$500 - $700",
         "jobType": "Full-time",
@@ -278,7 +278,7 @@
       {
         "id": "job-503",
         "title": "Content Writer",
-        "bannerImage": "https://i.ibb.co/WBRgQ4y/content.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Remote",
         "salary": "$400 - $600",
         "jobType": "Part-time",
@@ -297,7 +297,7 @@
   {
     "id": "6",
     "name": "MediCore Health",
-    "logo": "https://i.ibb.co/G7rz7Tf/health-logo.png",
+    "logo": "https://i.ibb.co.com/67P8J1CY/MediCore.jpg",
     "location": "Dhaka, Bangladesh",
     "website": "https://medicore.com",
     "industry": "Healthcare Tech",
@@ -305,7 +305,7 @@
       {
         "id": "job-601",
         "title": "Medical Data Specialist",
-        "bannerImage": "https://i.ibb.co/k2vgLGn/medical-data.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Hybrid",
         "salary": "$900 - $1300",
         "jobType": "Full-time",
@@ -321,7 +321,7 @@
       {
         "id": "job-602",
         "title": "Healthcare Software Tester",
-        "bannerImage": "https://i.ibb.co/h9W4r3d/qa.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Dhaka Office",
         "salary": "$700 - $1000",
         "jobType": "Full-time",
@@ -337,7 +337,7 @@
       {
         "id": "job-603",
         "title": "Support Engineer",
-        "bannerImage": "https://i.ibb.co/98YLXcM/support.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Remote",
         "salary": "$500 - $800",
         "jobType": "Full-time",
@@ -356,7 +356,7 @@
   {
     "id": "7",
     "name": "Vivasoft",
-    "logo": "https://i.ibb.co/BzLmP4p/shop-logo.png",
+    "logo": "https://i.ibb.co.com/gbVNFKCd/V.png",
     "location": "Dhaka, Bangladesh",
     "website": "https://vivasoftltd.com/#",
     "industry": "E-Commerce",
@@ -364,7 +364,7 @@
       {
         "id": "job-701",
         "title": "Frontend Developer (E-Commerce)",
-        "bannerImage": "https://i.ibb.co/RpZcKjS/frontend-banner.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Remote",
         "salary": "$800 - $1200",
         "jobType": "Full-time",
@@ -380,7 +380,7 @@
       {
         "id": "job-702",
         "title": "Product Manager",
-        "bannerImage": "https://i.ibb.co/HGvkgXQ/product-manager.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Dhaka Office",
         "salary": "$1000 - $1600",
         "jobType": "Full-time",
@@ -396,7 +396,7 @@
       {
         "id": "job-703",
         "title": "Logistics Coordinator",
-        "bannerImage": "https://i.ibb.co/3CnLg5f/logistic.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Dhaka Warehouse",
         "salary": "$500 - $750",
         "jobType": "Full-time",
@@ -415,7 +415,7 @@
   {
     "id": "8",
     "name": "Southtech ",
-    "logo": "https://i.ibb.co/F34tGJ0/bytewave.png",
+    "logo": "https://i.ibb.co.com/Rkh4MGRB/South-Tach.webp",
     "location": "Rajshahi, Bangladesh",
     "website": "https://www.southtechgroup.com/",
     "industry": "AI & Automation",
@@ -423,7 +423,7 @@
       {
         "id": "job-801",
         "title": "AI Research Assistant",
-        "bannerImage": "https://i.ibb.co/V2P9gHb/ai.jpg",
+        "bannerImage": "https://i.ibb.co.com/SDD3spsG/bannar2.jpg",
         "location": "Remote",
         "salary": "$900 - $1400",
         "jobType": "Full-time",
@@ -439,7 +439,7 @@
       {
         "id": "job-802",
         "title": "Automation Engineer",
-        "bannerImage": "https://i.ibb.co/m5WscJ4/automation.jpg",
+        "bannerImage": "https://i.ibb.co.com/vfRfTQ2/bannar.webp",
         "location": "Rajshahi Office",
         "salary": "$1000 - $1500",
         "jobType": "Full-time",
@@ -455,7 +455,7 @@
       {
         "id": "job-803",
         "title": "AI Tester",
-        "bannerImage": "https://i.ibb.co/2cK4nWX/ai-test.jpg",
+        "bannerImage": "https://i.ibb.co.com/CpQ8KLjw/bannar3.png",
         "location": "Hybrid",
         "salary": "$700 - $1100",
         "jobType": "Full-time",

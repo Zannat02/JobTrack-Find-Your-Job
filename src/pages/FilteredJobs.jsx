@@ -2,8 +2,15 @@ import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router";
 
 const FilteredJobs = () => {
-  const { jobType } = useParams(); // from URL
+  const { jobType } = useParams(); 
   const [jobs, setJobs] = useState([]);
+
+
+   useEffect(() => {
+          document.title = "TypeOfJobs | JobTrack";
+      }, []);
+
+
 
   useEffect(() => {
     fetch("/companies_details.json")

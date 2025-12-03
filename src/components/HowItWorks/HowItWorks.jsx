@@ -25,9 +25,9 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-4">How JobTrack Works</h2>
+    <section className="py-16 ">
+      <div className="w-11/12 mx-auto px-6 text-center">
+        <h2 className="text-4xl font-bold mb-4">How JobTrack Works</h2>
         <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
           Understand the simple steps to explore job opportunities and apply with confidence.
         </p>

@@ -3,13 +3,13 @@ import { NavLink, useLocation } from "react-router";
 const Footer = () => {
   const location = useLocation();
 
-  // Category underline logic – same as Navbar
+  
   const isCategoryActive = location.pathname.startsWith("/jobs/");
 
   return (
     <footer className="footer footer-horizontal footer-center bg-black text-white  p-10">
 
-      {/* TOP NAV LINKS EXACT LIKE NAVBAR */}
+    
       <nav className="grid grid-flow-col gap-4">
 
         {/* Home */}
@@ -37,7 +37,7 @@ const Footer = () => {
         </NavLink>
       </nav>
 
-      {/* SOCIAL ICONS */}
+      
       <nav>
         <div className="grid grid-flow-col gap-4">
 
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
       </nav>
 
-      {/* COPYRIGHT */}
+     
       <aside>
         <p>
           Copyright © {new Date().getFullYear()} - All rights reserved by JobTrack
