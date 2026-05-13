@@ -9,3 +9,9 @@
       font-family: "Poppins", sans-serif;
 }
 
+
+html,
+body,
+#root {
+  overflow-x: hidden;
+}

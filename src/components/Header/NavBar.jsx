@@ -90,8 +90,13 @@ const NavBar = () => {
           </ul>
         </div>
 
+        {/* <img className="w-8 rounded-xl" src={logo} alt="logo" />
+        <p className="text-2xl font-bold ml-2">JobTrack</p> */}
         <img className="w-8 rounded-xl" src={logo} alt="logo" />
-        <p className="text-2xl font-bold ml-2">JobTrack</p>
+
+        <p className="hidden lg:block text-2xl font-bold ml-2">
+          JobTrack
+        </p>
       </div>
 
       <div className="navbar-center hidden lg:flex">
@@ -102,19 +107,25 @@ const NavBar = () => {
 
       <div className="navbar-end gap-5">
         {user ? (
-          <div className="flex items-center gap-3">
-            <img src={user.photoURL || logo} alt="user" className="w-10 h-10 rounded-full" />
-            <span className="hidden md:block">{user.displayName || user.email}</span>
-            <button onClick={handleLogout} className="btn btn-md btn-ghost text-black border border-gray-300">
+          <div className="flex items-center gap-1 md:gap-2 lg:gap-3">
+            <img src={user.photoURL || logo} alt="user" className="w-8 h-8 lg:w-10 lg:h-10 rounded-full" />
+            <span className="hidden lg:block">{user.displayName || user.email}</span>
+            <button onClick={handleLogout} className="btn btn-sm lg:btn-md btn-ghost text-black border border-gray-300">
               Logout
             </button>
           </div>
         ) : (
-          <div className="flex gap-3">
-            <Link to="/auth/login" className="btn border border-blue-500 hover:border-none">
+          <div className="flex gap-1 md:gap-2 lg:gap-3">
+            <Link
+              to="/auth/login"
+              className="btn btn-sm lg:btn-md border border-blue-500 hover:border-none"
+            >
               Log In
             </Link>
-            <Link to="/auth/register" className="btn border border-red-600 hover:border-none">
+            <Link
+              to="/auth/register"
+              className="btn btn-sm lg:btn-md border border-red-600 hover:border-none"
+            >
               Register
             </Link>
           </div>

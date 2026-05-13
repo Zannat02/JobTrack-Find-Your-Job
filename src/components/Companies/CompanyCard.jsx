@@ -24,7 +24,7 @@ const CompanyCard = ({ company }) => {
 
 
   return (
-    <div className=" rounded-xl shadow-md hover:shadow-lg transition transform hover:scale-[1.02] p-5">
+    <div className="rounded-xl shadow-md hover:shadow-lg transition transform hover:scale-[1.02] p-5">
       <div className="flex items-start gap-4 ">
         <img src={company.logo} alt={company.name} className="w-16 h-16 object-contain rounded-md" />
         <div>
