@@ -5,14 +5,14 @@ import Footer from '../components/Footer/Footer';
 
 const HomeLayout = () => {
     return (
-        <div className="-mb-10 ">
+        <div className=" ">
             <header className='bg-base-100 w-11/12 mx-auto mt-2'>
                   
                         <NavBar></NavBar>
                         {import.meta.env.VITE_name}
                    
             </header>
-            <main className=" bg-base-200">
+            <main className=" bg-base-200 min-h-screen">
               <div className='w-11/12 mx-auto '>
                   <Outlet></Outlet>
               </div>

@@ -42,9 +42,17 @@ const Bannar = () => {
             </div>
 
          
-            <div className="    md:w-1/2 w-full flex justify-center">
+            {/* <div className="    md:w-1/2 w-full flex justify-center">
                 <img className="w-full md:w-[700px]" src={BannarImage} alt="Banner" />
-            </div>
+            </div> */}
+
+            <div className="md:w-1/2 w-full flex justify-center">
+    <img
+        className="w-full max-w-[700px] object-cover"
+        src={BannarImage}
+        alt="Banner"
+    />
+</div>
 
         </div>
 
