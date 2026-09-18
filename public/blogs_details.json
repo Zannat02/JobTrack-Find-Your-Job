@@ -1,0 +1,92 @@
+[
+  {
+    "id": "blog-1",
+    "title": "10 Resume Mistakes That Are Costing You Job Offers",
+    "author": "JobTrack Team",
+    "date": "2026-08-12",
+    "category": "Resume Tips",
+    "image": "https://picsum.photos/id/20/900/500",
+    "excerpt": "Your resume is the first impression you make on a recruiter. Avoid these common mistakes to stand out from the crowd.",
+    "content": [
+      "A resume is often the very first thing a recruiter sees, and it usually gets no more than a few seconds of attention. That means every line has to earn its place.",
+      "One of the most common mistakes is using a generic resume for every application. Tailoring your resume to match the job description significantly increases your chances of getting noticed.",
+      "Another issue is listing responsibilities instead of achievements. Instead of saying 'Managed social media accounts,' say 'Grew social media engagement by 40% in six months.'",
+      "Finally, keep your formatting clean and consistent. Recruiters spend very little time per resume, so clarity always wins over creativity."
+    ]
+  },
+  {
+    "id": "blog-2",
+    "title": "How to Answer 'Tell Me About Yourself' in Interviews",
+    "author": "JobTrack Team",
+    "date": "2026-08-20",
+    "category": "Interview Tips",
+    "image": "https://picsum.photos/id/60/900/500",
+    "excerpt": "This simple question trips up more candidates than any technical question. Here's a framework that actually works.",
+    "content": [
+      "The 'Tell me about yourself' question is often the opening question in interviews, and it sets the tone for the rest of the conversation.",
+      "A simple framework to follow is Present-Past-Future: start with what you currently do, briefly mention relevant past experience, and end with what you're looking for next.",
+      "Keep your answer under two minutes. Recruiters are not looking for your full life story, just a clear, relevant summary.",
+      "Practice your answer out loud a few times before the interview, but avoid memorizing it word for word — it should still sound natural."
+    ]
+  },
+  {
+    "id": "blog-3",
+    "title": "Remote Work: How to Stay Productive From Home",
+    "author": "JobTrack Team",
+    "date": "2026-09-02",
+    "category": "Career Growth",
+    "image": "https://picsum.photos/id/180/900/500",
+    "excerpt": "Remote jobs offer flexibility, but they also come with unique challenges. Here's how top remote workers manage their day.",
+    "content": [
+      "Remote work removes the structure of a physical office, which means you have to build your own routine to stay productive.",
+      "Setting a fixed start and end time for your workday helps prevent burnout and keeps a healthy boundary between work and personal life.",
+      "A dedicated workspace, even a small corner of a room, signals to your brain that it's time to focus.",
+      "Regular check-ins with your team, even informal ones, help maintain the sense of connection that's naturally present in an office."
+    ]
+  },
+  {
+    "id": "blog-4",
+    "title": "Negotiating Your Salary: A Beginner's Guide",
+    "author": "JobTrack Team",
+    "date": "2026-09-10",
+    "category": "Career Growth",
+    "image": "https://picsum.photos/id/119/900/500",
+    "excerpt": "Most candidates accept the first offer out of fear. Here's how to negotiate confidently without risking the offer.",
+    "content": [
+      "Salary negotiation feels uncomfortable for most people, but employers generally expect it and build room for it into their initial offers.",
+      "Before negotiating, research the market rate for your role, experience level, and location so your ask is grounded in data.",
+      "When countering an offer, be specific and polite: state the number you're looking for and briefly explain why, based on your skills or market research.",
+      "Remember that negotiation isn't only about salary — benefits, remote flexibility, and start date can all be part of the conversation."
+    ]
+  },
+  {
+    "id": "blog-5",
+    "title": "Switching Careers After 5 Years: Is It Too Late?",
+    "author": "JobTrack Team",
+    "date": "2026-09-15",
+    "category": "Career Growth",
+    "image": "https://picsum.photos/id/48/900/500",
+    "excerpt": "It's never too late to pivot. Here's a practical approach to changing your career path without starting from zero.",
+    "content": [
+      "Many professionals feel stuck in their current field but worry that switching careers means throwing away years of experience.",
+      "In reality, most skills are transferable. Communication, project management, and problem-solving apply across almost every industry.",
+      "Start by identifying overlapping skills between your current role and your target field, then fill the gaps with short courses or certifications.",
+      "Networking within your target industry, even informally, often opens more doors than applying cold through job boards."
+    ]
+  },
+  {
+    "id": "blog-6",
+    "title": "The Rise of AI Skills in Job Requirements",
+    "author": "JobTrack Team",
+    "date": "2026-09-16",
+    "category": "Industry Trends",
+    "image": "https://picsum.photos/id/1/900/500",
+    "excerpt": "AI literacy is becoming a baseline expectation across industries, not just in tech roles. Here's what that means for job seekers.",
+    "content": [
+      "Job postings across nearly every industry now mention some level of comfort with AI tools, from writing assistants to data analysis platforms.",
+      "This doesn't mean every job seeker needs to become a machine learning engineer — basic fluency with common AI tools is often enough to stand out.",
+      "Employers value candidates who can use AI to work more efficiently, not just those who understand the underlying technology.",
+      "A good starting point is learning how AI tools apply specifically to your field, whether that's marketing, design, finance, or customer support."
+    ]
+  }
+]

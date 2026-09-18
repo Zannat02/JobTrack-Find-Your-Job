@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router';
 import BannarImage from '../../assets/Bannar-img.jpg'
 import { IoIosSearch } from 'react-icons/io';
 
 const Bannar = () => {
+    const [searchText, setSearchText] = useState("");
+    const navigate = useNavigate();
+
+    const handleSearch = () => {
+        if (!searchText.trim()) return;
+        navigate(`/search?q=${encodeURIComponent(searchText.trim())}`);
+    };
+
+    const handleKeyDown = (e) => {
+        if (e.key === "Enter") handleSearch();
+    };
+
     return (
-
         <div className="flex flex-col md:flex-row justify-between items-center md:items-center gap-10 p-10 px-5 ">
-
-          
             <div className="md:w-1/2 w-full text-center md:text-left pt-10">
-
                 <p className='text-sky-950 text-4xl md:text-5xl font-bold'>
                     Find Your Favourite <br />
                     <span className='text-red-400 text-2xl md:text-3xl'>Job Immediete</span>
@@ -21,41 +30,35 @@ const Bannar = () => {
                     Search, explore, and apply—quickly and easily.
                 </p>
 
-              
                 <div className="join pt-5 w-full flex justify-center md:justify-start">
-                    <div >
+                    <div>
                         <label className="input validator join-item flex items-center gap-2">
                             <IoIosSearch size={25} className='text-gray-400' />
                             <input
                                 type="text"
+                                value={searchText}
+                                onChange={(e) => setSearchText(e.target.value)}
+                                onKeyDown={handleKeyDown}
                                 placeholder="Search, explore, and apply"
                                 className="outline-none"
                             />
                         </label>
                     </div>
 
-                    <button className="btn bg-sky-950 hover:bg-red-400 text-white join-item">
+                    <button onClick={handleSearch} className="btn bg-sky-950 hover:bg-red-400 text-white join-item">
                         Search
                     </button>
                 </div>
-
             </div>
 
-         
-            {/* <div className="    md:w-1/2 w-full flex justify-center">
-                <img className="w-full md:w-[700px]" src={BannarImage} alt="Banner" />
-            </div> */}
-
             <div className="md:w-1/2 w-full flex justify-center">
-    <img
-        className="w-full max-w-[700px] object-cover"
-        src={BannarImage}
-        alt="Banner"
-    />
-</div>
-
+                <img
+                    className="w-full max-w-[700px] object-cover"
+                    src={BannarImage}
+                    alt="Banner"
+                />
+            </div>
         </div>
-
     );
 };
 

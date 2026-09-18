@@ -73,6 +73,11 @@ const NavBar = () => {
           About Us
         </NavLink>
       </li>
+      <li>
+        <NavLink to="/blog" className={({ isActive }) => (isActive ? "underline" : "")}>
+          Blog
+        </NavLink>
+      </li>
     </>
   );
 

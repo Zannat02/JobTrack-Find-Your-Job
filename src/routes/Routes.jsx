@@ -13,6 +13,9 @@ import Register from "../pages/Register";
 import PrivateRoute from "../provider/PrivateRoute";
 import ForgotPassword from "../pages/ForgetPassword";
 import About from "../pages/About";
+import SearchResults from "../pages/SearchResults";
+import Blogs from "../pages/Blogs";
+import BlogDetails from "../pages/BlogDetails";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +23,15 @@ export const router = createBrowserRouter([
     element: <HomeLayout />,
     children: [
       { index: true, element: <Home /> },
+
+      {
+        path: "search",
+        element: (
+          <PrivateRoute>
+            <SearchResults />
+          </PrivateRoute>
+        ),
+      },
       {
         path: "company/:companyId",
         element: (
@@ -45,9 +57,17 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path:'/about',
-        element:<About></About>
-      }
+        path: '/about',
+        element: <About></About>
+      },
+      {
+        path: "blog",
+        element: <Blogs />,
+      },
+      {
+        path: "blog/:blogId",
+        element: <BlogDetails />,
+      },
     ],
 
   },
