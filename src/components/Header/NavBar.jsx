@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
-import { NavLink, Link, useNavigate } from "react-router";
+import React, { useContext, useEffect, useRef, useState } from "react";
+import { NavLink, Link, useNavigate, useLocation } from "react-router";
 import { AuthContext } from "../../provider/AuthProvider";
 import logo from "../../assets/logo.jpg";
 
@@ -7,7 +7,12 @@ const NavBar = () => {
   const { user, logoutUser } = useContext(AuthContext);
   const [jobTypes, setJobTypes] = useState([]);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const mobileMenuRef = useRef(null);
+  const categoryRef = useRef(null);
 
   useEffect(() => {
     fetch("/companies_details.json")
@@ -22,16 +27,37 @@ const NavBar = () => {
       .catch(() => setJobTypes([]));
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (mobileMenuRef.current && !mobileMenuRef.current.contains(e.target)) {
+        setMobileMenuOpen(false);
+      }
+      if (categoryRef.current && !categoryRef.current.contains(e.target)) {
+        setDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, []);
+
   const handleLogout = () => {
     logoutUser()
       .then(() => navigate("/"))
       .catch((err) => console.error(err));
   };
 
+  const closeMobileMenu = () => setMobileMenuOpen(false);
+
   const links = (
     <>
       <li>
-        <NavLink to="/" className={({ isActive }) => (isActive ? "underline" : "")}>
+        <NavLink to="/" onClick={closeMobileMenu} className={({ isActive }) => (isActive ? "underline" : "")}>
           Home
         </NavLink>
       </li>
@@ -39,11 +65,10 @@ const NavBar = () => {
 
 
 
-      <li className="relative">
+      <li className="relative" ref={categoryRef}>
         <button
           onClick={() => setDropdownOpen((p) => !p)}
-          className={`px-4 py-2 rounded-md hover:bg-gray-100 ${location.pathname.startsWith("/jobs") ? "underline" : ""
-            }`}
+          className={location.pathname.startsWith("/jobs") ? "underline" : ""}
         >
           Category
         </button>
@@ -55,7 +80,10 @@ const NavBar = () => {
                 <NavLink
                   to={`/jobs/${type.toLowerCase()}`}
                   className="block px-3 py-2 rounded hover:bg-gray-100"
-                  onClick={() => setDropdownOpen(false)}
+                  onClick={() => {
+                    setDropdownOpen(false);
+                    closeMobileMenu();
+                  }}
                 >
                   {type}
                 </NavLink>
@@ -68,13 +96,14 @@ const NavBar = () => {
       <li>
         <NavLink
           to="/about"
+          onClick={closeMobileMenu}
           className={({ isActive }) => (isActive ? "underline" : "")}
         >
           About Us
         </NavLink>
       </li>
       <li>
-        <NavLink to="/blog" className={({ isActive }) => (isActive ? "underline" : "")}>
+        <NavLink to="/blog" onClick={closeMobileMenu} className={({ isActive }) => (isActive ? "underline" : "")}>
           Blog
         </NavLink>
       </li>
@@ -84,15 +113,20 @@ const NavBar = () => {
   return (
     <div className="navbar ">
       <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <div className="dropdown" ref={mobileMenuRef}>
+          <button
+            onClick={() => setMobileMenuOpen((p) => !p)}
+            className="btn btn-ghost lg:hidden"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
-          </div>
-          <ul tabIndex="-1" className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            {links}
-          </ul>
+          </button>
+          {mobileMenuOpen && (
+            <ul className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              {links}
+            </ul>
+          )}
         </div>
 
         {/* <img className="w-8 rounded-xl" src={logo} alt="logo" />
@@ -141,5 +175,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
